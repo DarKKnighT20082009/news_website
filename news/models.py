@@ -54,7 +54,7 @@ class Comment(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def get_user(self):
-        user = User.objects.get(id=self.user_id)
+        user = User.objects.get(id=self.user_id_id)
         return user.first_name + ' ' + user.last_name
 
     def __str__(self):
