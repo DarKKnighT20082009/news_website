@@ -17,7 +17,6 @@ class UserSignupForm(UserCreationForm):
             'username': forms.TextInput(attrs={'class': 'input100', 'placeholder': 'Username'}),
             'password1': forms.PasswordInput(attrs={'class': 'input100', 'placeholder': 'Password'}),
             'password2': forms.PasswordInput(attrs={'class': 'input100', 'placeholder': 'Repeat password'}),
-
         }
 
 
